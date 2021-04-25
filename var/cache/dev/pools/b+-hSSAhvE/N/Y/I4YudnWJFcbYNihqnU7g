@@ -1,0 +1,70 @@
+<?php //App_Entity_User
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\User',
+                'id',
+                'email',
+                'roles',
+                'password',
+                'plainPassword',
+                'valide',
+                'listes',
+                'username',
+                'salt',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'email' => $o[2],
+                    'roles' => $o[3],
+                    'password' => $o[4],
+                    'plainPassword' => $o[5],
+                    'valide' => $o[6],
+                    'listes' => $o[7],
+                    'username' => $o[8],
+                    'salt' => $o[9],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'user:read',
+                ],
+                [
+                    'user:read',
+                    'user:write',
+                ],
+                [
+                    'user:read',
+                ],
+                5 => [
+                    'user:write',
+                ],
+                [
+                    'user:read',
+                    'user:write',
+                ],
+            ],
+            'serializedName' => [
+                5 => 'password',
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

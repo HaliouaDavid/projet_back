@@ -1,0 +1,66 @@
+<?php //App_Entity_Task
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\Serializer\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\ClassMetadata')),
+        clone ($p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata')),
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+        clone $p['Symfony\\Component\\Serializer\\Mapping\\AttributeMetadata'],
+    ],
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Task',
+                'id',
+                'Name',
+                'date',
+                'note',
+                'fait',
+                'liste',
+                'name',
+            ],
+            'attributesMetadata' => [
+                [
+                    'id' => $o[1],
+                    'Name' => $o[2],
+                    'date' => $o[3],
+                    'note' => $o[4],
+                    'fait' => $o[5],
+                    'liste' => $o[6],
+                    'name' => $o[7],
+                ],
+            ],
+            'groups' => [
+                1 => [
+                    'task:read',
+                ],
+                [
+                    'task:read',
+                    'task:write',
+                ],
+                [
+                    'task:read',
+                    'task:write',
+                ],
+                [
+                    'task:read',
+                    'task:write',
+                ],
+                [
+                    'task:read',
+                    'task:write',
+                ],
+                [
+                    'task:read',
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];

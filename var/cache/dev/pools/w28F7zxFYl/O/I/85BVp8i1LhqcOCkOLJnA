@@ -1,0 +1,68 @@
+<?php //object.User%2520%253D%253D%2520user%252F%252F_api_collection_operation_name%257C_api_has_composite_identifier%257C_api_identifiers%257C_api_normalization_context%257C_api_resource_class%257C_controller%257C_firewall_context%257C_format%257C_route%257C_route_params%257C_stateless%257Cauth_checker%257Cdata%257ChttpPort%257ChttpsPort%257Cobject%257Cpath%257Cpermanent%257Crequest%257Croles%257Cscheme%257Ctoken%257Ctrust_resolver%257Cuser
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\ExpressionLanguage\\ParsedExpression'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\ParsedExpression')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\BinaryNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\BinaryNode')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\GetAttrNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\GetAttrNode')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\NameNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\NameNode')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode')),
+        clone ($p['Symfony\\Component\\ExpressionLanguage\\Node\\ArgumentsNode'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\ExpressionLanguage\\Node\\ArgumentsNode')),
+        clone $p['Symfony\\Component\\ExpressionLanguage\\Node\\NameNode'],
+    ],
+    null,
+    [
+        'Symfony\\Component\\ExpressionLanguage\\ParsedExpression' => [
+            'nodes' => [
+                $o[1],
+            ],
+        ],
+        'Symfony\\Component\\ExpressionLanguage\\Expression' => [
+            'expression' => [
+                'object.User == user',
+            ],
+        ],
+        'stdClass' => [
+            'nodes' => [
+                1 => [
+                    'left' => $o[2],
+                    'right' => $o[6],
+                ],
+                [
+                    'node' => $o[3],
+                    'attribute' => $o[4],
+                    'arguments' => $o[5],
+                ],
+            ],
+            'attributes' => [
+                1 => [
+                    'operator' => '==',
+                ],
+                [
+                    'type' => 1,
+                ],
+                [
+                    'name' => 'object',
+                ],
+                [
+                    'value' => 'User',
+                ],
+                6 => [
+                    'name' => 'user',
+                ],
+            ],
+        ],
+        'Symfony\\Component\\ExpressionLanguage\\Node\\ConstantNode' => [
+            'isIdentifier' => [
+                4 => true,
+            ],
+        ],
+        'Symfony\\Component\\ExpressionLanguage\\Node\\ArrayNode' => [
+            'index' => [
+                5 => -1,
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
